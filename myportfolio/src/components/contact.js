@@ -30,13 +30,21 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{ fontSize: "25px" }}>
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    Oyuka.coffee@gmail.com
+                 <a href="mailto:Oyuka.coffee@gmail.com">Oyuka.coffee@gmail.com</a>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
                   <ListItemContent style={{ fontSize: "25px" }}>
                     <i className="fa fa-github-square" aria-hidden="true" />
-                    Oyuka 100
+                    <a href="https://github.com/Oyuka100">Oyuka 100</a>
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent style={{ fontSize: "25px" }}>
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    <a href="https://www.linkedin.com/in/oyuka-d-494b51178/">
+                      Oyuka D
+                    </a>
                   </ListItemContent>
                 </ListItem>
               </List>
