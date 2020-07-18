@@ -10,18 +10,18 @@ function App() {
       <Layout>
         <Header className="header-color" title="Title" scroll>
           <Navigation>
-            <Link to="/">Resume</Link>
-            <Link to="/">About me</Link>
-            <Link to="/">Project</Link>
-            <Link to="/">Contact</Link>
+            <Link to="/aboutme">About Me</Link>
+            <Link to="/resume">Resume</Link>
+            <Link to="/project">Project</Link>
+            <Link to="/contact">Contact</Link>
           </Navigation>
         </Header>
         <Drawer title="Title">
           <Navigation>
-            <a href="/">Resume</a>
-            <a href="/">About me</a>
-            <a href="/">Project</a>
-            <a href="/">Contact</a>
+            <a href="/resume">Resume</a>
+            <a href="/aboutme">About me</a>
+            <a href="/project">Project</a>
+            <a href="/contact">Contact</a>
           </Navigation>
         </Drawer>
         <Content>
@@ -32,5 +32,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
